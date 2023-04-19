@@ -1,0 +1,46 @@
+@font-face {
+  font-family: 'Qatar';
+  src: url('./../fonts/Qatar2022Arabic-Bold.ttf') format('truetype');
+  font-style: normal;
+  font-weight: normal;
+}
+
+:root {
+  --primary: #56042c;
+  --secondary: #b09677;
+  --third: #e1c396;
+  --tri: #FEC310;
+  --fourth:#ffffff;
+  --fifth: #63a194;
+  --sixth: #49bce3;
+  --seventh: #1077C3;
+  --ochola: #9A1032;
+  --nuevola: #791426;
+  --diegola: #af1c3b;
+}
+
+body {
+  font-family: 'Qatar', Arial, Helvetica, sans-serif;
+}
+
+.bordes {
+  border: 2px solid #000;
+}
+
+.color-menu {
+  background-color: var(--seventh);
+}
+
+.color-text {
+  color: var(--nuevola);
+}
+
+.form-container {
+  width: 65%;
+  border: 2px solid var(--third);
+  border-radius: 25px;
+  margin: auto;
+  background-color: var(--primary);
+  padding: 5% 0;
+  color: var(--third);
+}
